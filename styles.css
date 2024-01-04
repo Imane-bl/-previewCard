@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+:root{
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  
+}
+body{
+    background-color:var(--Yellow) ;
+    font-family:Figtree;
+    line-height: 2.5rem;
+   
+}
+
+.content{
+    background-color: var(--White);
+    position:relative;
+    width:460px;/*370*/
+    height:auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px black;
+    border: 1px solid black;
+    display: table;
+  margin: 0 auto;
+  margin-top:50px;
+   
+}
+img.imgone { 
+     margin-top:20px;
+     margin-left:27px;
+    width: 400px;
+    height:auto;
+ 
+  /*  object-fit: contain;*/
+    border-radius: 5px;
+  }
+  .contentflex {
+   display: flex;
+  }
+  img.imgtwo{
+
+
+    width: 27px;
+    height: 27px;
+    margin-top: -5px;
+    object-fit: contain;
+
+  }
+  button{
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    border: none;
+    padding:5px;
+    font-weight:bolder ;
+
+  }
+  button:hover{
+    background-color: orange;
+    cursor: pointer;
+  }
+
+ 
+  .move{
+    margin-left:29px;
+  }
+  .content.move.one{
+    opacity: 1;
+  }
+  .contentflex{
+   margin-top: 15px;
+  }
+  .contentflex h3{
+    margin-left: 20px;
+    margin-top:  -10px;
+  }
+  p.two{
+  opacity: 0.4;
+  line-height: 1.5rem;
+  margin-top: 3px;
+
+  }
+  p{
+    max-width: 380px;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+  }
+  h1:hover{
+    border-bottom: 3px solid orange;
+    max-width: 380px;
+    transition:max-width 0.1s ease ;
+  }
+  /* Media Query for Desktop */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px; /* Adjust font size for desktop */
+        /* Add any other desktop-specific styles */
+    }
+
+ 
